@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.69);
+    width: 100%;
+    height: 9vh;
+    position: fixed;
+
+}
+
+.navdiv {
+    width: 80%;
+    height: 3vh;
+    padding-top: 3vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textwhite {
+    color: aliceblue;
+}
+
+.navbara {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    margin-right: 1vw;
+}
+
+.navbara2 {
+    text-decoration: none;
+    float: right;
+}
+
+ul :hover {
+    color: aliceblue;
+    transition: 0.5s;
+}
+
+/* header */
+.header {
+    width: 100%;
+    height: 92vh;
+    background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+    padding-top: 27vh;
+}
+.headdiv {
+    width: 100%;
+    height: 45vh;
+}
+.headdiv2 {
+    width: 60%;
+    height: 45vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.h1 {
+    font-size: 13vh;
+}
+.h2 {
+    font-size: 8.5vh;
+}
+.buttona{ 
+    display: inline-block;
+    width: 22%;
+    height: 10vh;
+    background-color: #ee0979;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 7vh;
+    border: 1px solid #ee0979;
+    border-radius: 50rem;
+    padding-top: 3.5vh;
+
+}
+/* MAIN START */
+.sc1 {
+    width: 100%;
+    height: 80vh;
+    
+}
+
+.secdiv {
+    width: 50%;
+    height: 80vh;
+    display: inline-block;
+    text-align: center;
+    padding-top: 22vh;
+    padding-left: 22vh;
+}
+.secdiv2 {
+    width: 32%;
+    height: 66vh;
+    float: right;
+    margin-top: 7vh;
+    margin-right: 13vw;
+    border: 1px solid none;
+    border-radius:50%;
+
+}
+.img {
+    width: 100%;
+    height: 66vh;
+    border-radius: 50%;
+}
+.h2s {
+    width: 80%;
+    text-align: left;
+}
+h3 {
+    text-align: left;
+    width: 85%;
+}
+.secdiv3 {
+    width: 32%;
+    height: 66vh;
+    float: left;
+    margin-top: 6vh;
+    margin-left: 13vw;
+    border: 1px solid none;
+    border-radius:50%;
+}
+.secdiv4 {
+    width: 50%;
+    height: 80vh;
+    display: inline-block;
+    text-align: center;
+    padding-top: 24vh;
+    padding-left: 7vw;
+}
+
+
+.h4s {
+    width: 80%;
+    text-align: left;
+
+}
+footer {
+    width: 100%;
+    height: 15.6vh;
+    background-color: black;
+    text-align: center;
+    padding-top: 6.6vh;
+}
